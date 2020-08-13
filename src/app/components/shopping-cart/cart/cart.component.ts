@@ -41,9 +41,9 @@ export class CartComponent implements OnInit {
     if (!productExists) {
       this.cartItems.push({
         productId: product.id,
-        productName: product.name,
+        productName: product.Name,
         qty: 1,
-        price: product.price
+        price: product.UnitPrice
       })
     }
     // if (this.cartItems.length === 0) {
